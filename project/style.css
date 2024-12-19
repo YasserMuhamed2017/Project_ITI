@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar {
+    height: 75px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background: #383434;
+    padding: 0px 100px;
+    line-height: 75px;
+}
+
+div .logo {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+
+div ul {
+    float: right;
+}
+
+div ul li {
+    display: inline-block;
+}
+
+div ul li a {
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: block;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+div ul li a:hover {
+    background-color: #e95510;
+}
+
+h2, h4 {
+    color: white;
+    padding-top: 0%;
+    padding-left: 100px;
+}
+span {
+    padding-left: 10px;
+    color: gray;
+}
+.font {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(216, 216, 206);
+    padding-top: 40px;
+}
+
+button {
+    padding: 10px;
+    background-color: #383434;
+    color: white;
+    margin-left: 100px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.laptop {
+    width: 100%;
+    padding-right: 200px;
+}
+
+.body {
+    background-color: rgb(247, 244, 244);
+    height: 300px;
+    width: 100%;
+}
+
+.padding {
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.padding .card {
+    background-color: #ffffff;
+    padding-right: 150px;
+    height: 100px;
+    box-shadow: 1px 1px #888888;
+    border-radius: 10px;
+}
+
+.allformat {
+    background-color: #ffffff;
+    width: 405px;
+    padding: 0%;
+}
+.allformat img {
+    padding-right: 0px;
+    height: 50px;
+    width: 50px;
+}
+
+
+.text {
+    display: inline-block;
+    height: 30px;
+    padding-left: 0%;
+}
+
+.text h3 {
+    font-family: Verdana, Geneva, Tahoma;
+    color: wheat; 
+    font-size: 50px;
+}
+
+.custom-table {
+    background-color: #e95510; 
+    height: 50%;
+}
+
+.custom-cell {
+    width: 50%; 
+    vertical-align: text-top; 
+    border-spacing: 0;
+}
+
+.custom-heading {
+    padding-top: 50px;
+}
+
+.text-margin {
+    margin-left: 64px;
+    color: gray;
+}
+.about_details {
+    height: 70px;
+    background-color: #e95510;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.about_details a {
+    color: white;
+    text-decoration: none;
+}
+
+.about_details a:hover {
+    color: black;
+}
+
+.amazing_team {
+    height: 150px;
+    background-color: rgb(230, 223, 223);
+}
+
+.amazing_team h2 {
+    padding-top: 30px;
+    color: rgb(78, 75, 75);
+    text-align: center;
+    text-transform: uppercase;
+    padding-right: 100px;
+}
+
+.amazing_team h4 {
+    padding-top: 10px;
+    line-height: 20px;
+    color: rgb(146, 140, 140);
+    text-align: center;
+    padding-right: 200px; 
+    padding-left: 200px;
+}
+
+.grid-item .organize {
+    float: left; 
+    margin-left: 10px;
+}
+
+.organize img {
+    display: inline-block; 
+    width: 15px;
+}
+
+.organize h6 {
+    display: inline-block;
+    color: gray;
+    font-size: 17px;
+}
+
+#image {
+    width:200px;
+    margin-top: 15px;
+}
+
+#heading1 {
+    margin-top: 50px;
+    color: rgb(59, 58, 58); 
+    text-align: left; 
+    font-size: 18px;
+}
+
+#heading2 {
+    margin-top: 10px; 
+    color: rgb(122, 118, 118); 
+    text-align: left; 
+    font-size: 16px;
+}
+
+#read {
+    margin-top: 1%;
+    position: absolute;
+    left: 243px;
+}
+
+#hr1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    opacity: 0.3;
+}
+
+#hr2 {
+    font-size: small;
+    padding-top: 10px;
+    float: left;
+    color: gray;
+}
+
+#hr3 {
+    font-size: small;
+    float: left;
+    color: gray;
+}
+.team {
+    width: 1030px;
+    background-color: #e95510;
+    margin-top: 40px;
+    margin-left: 100px;
+    height: 50px;
+    padding-left: 0px;
+}
+
+.team img {
+    width: 30px;
+    padding: 0%;
+}
+
+.team .span_image {
+    display: inline-block;
+    background-color: #461601;
+    width: 50px;
+    height: 50px;
+}
+
+.custom-man-img {
+    margin-top: 10px; 
+    margin-left: 10px;
+}
+
+.our-team-class {
+    display: inline-block; 
+    position: absolute; 
+    top: 60.5%; margin-left: 10px;
+}
+
+.image_border img {
+    width: 100px; 
+    height: 100px;
+}
+
+.design .p1 {
+    font-size: 15px; 
+    text-align: center; 
+    font-weight: bold;
+}
+
+.design .p2 {
+    font-size: 13px; 
+    text-align: center;
+}
+
+.design .p3 {
+    font-size: 10px;
+    text-align: center; 
+    color: gray; 
+    padding-top: 10px;
+}
+.team h4 {
+    display: inline-block;
+    color: white;
+    padding: 0%;
+}
+
+.developers {
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(4, 230px);
+    padding: 20px;
+    column-gap: 10%;
+    width: 25%;
+}
+
+.split {
+    background-color: #ddd9d9;
+    margin-top: 30px;
+    height: 200px;  
+}
+
+.split .image_border {
+    width: auto; 
+    padding: 0%;
+    background-color: #ddd9d9; 
+    text-align: center; 
+    margin-top: 50px;
+}
+.split h3 {
+    padding-top: 10%;
+    padding-right: 0%;
+    background-color: white;
+    color: #757474;
+    line-height: normal;
+    
+}
+
+.split h5 {
+    padding-top: 10%;
+    background-color: white;
+    color: #757474;
+    line-height: normal;
+    text-align: center;
+}
+
+.split h6 {
+    padding-top: 10%;
+    background-color: white;
+    color: #757474;
+    line-height: normal;
+    text-align: center;
+}
+
+.split .design {
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    color: gray;
+}
+
+.grid_layout {
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto 50% auto;
+    padding: 40px;
+}
+
+.grid-item {
+    background-color: white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+.edit {
+    background-color: #dfdad7;
+    height: 270px;
+}
+
+.new_edit {
+    padding-left: 0%;
+    font-style: oblique;
+}
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 5px;
+}
+
+.icon {
+    display: inline-block; 
+    width: 10%; 
+    margin-left: 50px;
+}
+
+.icon-img {
+    width: 240px; 
+    height: 40px; 
+    margin-top: 20px; 
+    padding-right: 160px;
+}
+.plans {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+}
+
+.new_grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item-plans {
+    background-color: white;
+    padding: 0px;
+    font-size: 25px;
+    text-align: center;
+    margin: 30px;
+    border: 1px solid gray;
+}
+
+.remove_border {
+    border: none;
+}
+.grid_edit {
+    padding: 50px;
+    height: auto;
+    background-color: gray;
+}
+
+.remove_margin_left {
+    margin-left: 0%;
+}
+
+.remove_margin_right {
+    margin-right: 0%;
+}
